@@ -1,0 +1,81 @@
+<style>
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  color: black;
+}
+
+/* Tooltip text */
+.toolti .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  border-color: #CB9D06;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.toolti:hover .tooltiptext {
+  visibility: visible;
+}
+* Tooltip container */
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  color: black;
+   border-color: #CB9D06;
+  border-width: 10px;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.toolti2 .tooltiptext2 {
+  visibility: hidden;
+  width: 100%;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  border-color: #000000;
+  border-width: 10px;
+  border-style: solid;
+  right:40%;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.toolti2:hover .tooltiptext2 {
+  visibility: visible;
+}
+</style>
+<h3 class="toolti">Price
+<span class="tooltiptext">
+<iframe src="https://xeconvert.com/widget1?from=kes&to=usd&lang=&theme=yellow&font=12" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+<div style="font-size:12px;font-family:arial;text-align:right;"></div>
+</span>
+
+</h3>
+<h3 class="toolti2">
+          <label class="label">
+  <input type="radio" name="colors" value="red" checked>
+  <img src="./assets/images/Sanabora 2020 Swatches.png" class="colorOption">
+
+   <span class="tooltiptext2"> 
+     <h4>Red</h4>
+    <img src="./assets/images/Sanabora 2020 Swatches.png" class="swatch">
+   
+     </span>
+</label>
+</h3>
